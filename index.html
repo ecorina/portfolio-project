@@ -36,34 +36,76 @@
       src="https://kit.fontawesome.com/a14e6ac00f.js"
       crossorigin="anonymous"
     ></script>
-    <link rel="stylesheet" href="styles/portfolio.css" />
+    <link rel="stylesheet" href="styles/style.css" />
     <title>ES-Portfolio</title>
   </head>
   <body>
-    <div class="portfolio">
+    <div class="portfolio-project">
       <!--Navbar-->
-      <nav class="navbar navbar-light bg-light">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="#">
-            <img
-              src=""
-              alt=""
-              width="30"
-              height="24"
-              class="d-inline-block align-text-top"
-            />
-          </a>
-        </div>
-      </nav>
-      <!-- Button -->
-      <div class="button-padding">
-        <button></button>
+      <div class="navbar-section d-sm-flex">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+          <div class="container d-flex justify-content-around">
+            <a class="navbar-brand" href="#">
+              <img
+                class="rounded-circle"
+                src="styles/avatar.jpg"
+                alt=""
+                width="40"
+                height="35"
+              />
+            </a>
+            <a class="navbar-brand" href="/index.html">Corina Serban</a>
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarNav"
+              aria-controls="navbarNav"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+              <ul class="navbar-nav">
+                <li class="nav-item">
+                  <a
+                    class="nav-link active"
+                    aria-current="page"
+                    href="/index.html"
+                    >Home</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">About me</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">My work</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Contact me</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
       </div>
-      <!--header-->
-      <div class="say-hi">Hi,I'm</div>
-      <h1 class="d-flex">Corina Serban</h1>
+      <!--Portofolio-->
+      <div class="portfolio">
+        <!--header-->
+        <div class="say-hi d-flex justify-content-center">👋🏻Hello,I'm</div>
+        <h1 class="d-flex justify-content-center">Corina Serban</h1>
+        <h2 class="d-flex justify-content-center">
+          Front end developer in London
+        </h2>
+        <div class="d-flex justify-content-evenly p-5">
+          <a href="#" class="btn btn-branding">Contact me</a>
+        </div>
 
-      <!---->
+        <!--Portfolio-end-->
+      </div>
+
+      <!--Portfollio-project-end-->
     </div>
   </body>
 </html>
