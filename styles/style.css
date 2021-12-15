@@ -72,6 +72,9 @@ a {
 .about-content {
   margin: 30px;
 }
+.contact-me {
+  margin-top: 200px;
+}
 
 .name {
   color: var(--button-color);
