@@ -81,6 +81,9 @@ a {
   margin-bottom: 300px;
 }
 
+.nav-link-contact {
+  color: var(--button-color) !important;
+}
 #about-photo {
   border-radius: 50%;
 }
