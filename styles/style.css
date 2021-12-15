@@ -29,6 +29,9 @@ p {
   font-size: 16px;
   line-height: 30px;
 }
+a {
+  color: var(--button-color);
+}
 .portfolio {
   padding: 160px 20px;
 }
