@@ -1,5 +1,5 @@
 :root {
-  --button-color: #f51374;
+  --button-color: #f81f05;
   --branding-color: white;
   --secondary-color: black;
   --heading-font-family: "Playfair Display", serif;
@@ -83,6 +83,7 @@ p {
 }
 #header-work {
   font-size: 50px !important;
+  color: var(--button-color);
 }
 #work-container {
   margin-top: 200px;
