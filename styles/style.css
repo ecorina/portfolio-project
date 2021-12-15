@@ -69,7 +69,9 @@ p {
 .about-content {
   margin: 30px;
 }
-
+.img-fluid photo {
+  border-radius: 50%;
+}
 .name {
   color: var(--button-color);
 }
