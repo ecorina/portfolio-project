@@ -115,6 +115,10 @@ i:hover {
   transition: box-shadow 0.15s;
 }
 
+#about-photo {
+  border-radius: 50%;
+}
+
 #header-work {
   font-size: 50px !important;
   color: var(--button-color);
