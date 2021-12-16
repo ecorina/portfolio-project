@@ -101,6 +101,9 @@ i:hover {
 .nav-link {
   color: white !important;
 }
+.git-footer {
+  margin-left: 6px;
+}
 #about-photo {
   border-radius: 50%;
 }
