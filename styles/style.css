@@ -1,5 +1,5 @@
 :root {
-  --button-color: #f50357;
+  --button-color: #e11269;
   --branding-color: white;
   --secondary-color: black;
   --heading-font-family: "Playfair Display", serif;
@@ -29,8 +29,22 @@ p {
   font-size: 16px;
   line-height: 30px;
 }
+footer {
+  margin-bottom: 50px;
+}
 a {
   color: var(--button-color);
+}
+a:hover {
+  color: white;
+}
+i {
+  font-size: 40px;
+  padding: 20px;
+}
+i:hover {
+  color: white;
+  font-size: 80px;
 }
 .portfolio {
   padding: 160px 20px;
@@ -85,7 +99,7 @@ a {
 }
 
 .nav-link {
-  color: var(--button-color) !important;
+  color: white !important;
 }
 #about-photo {
   border-radius: 50%;
@@ -99,4 +113,11 @@ a {
 }
 #navbar-contact {
   background: #1d1d1d;
+}
+#nav-gradient {
+  background: radial-gradient(
+    circle at 10% 20%,
+    rgb(255, 19, 120) 0%,
+    rgb(0, 0, 0) 90.5%
+  );
 }
