@@ -31,6 +31,7 @@ p {
 }
 footer {
   margin-bottom: 50px;
+  padding: 50px;
 }
 a {
   color: var(--button-color);
@@ -88,6 +89,7 @@ i:hover {
 }
 .contact-me {
   margin-top: 200px;
+  padding: 50px;
 }
 
 .name {
